@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import official from "./Images/67586360_2370058783272516_9012428600762171392_o.jpg";
 import './App.css';
+import NavBar from "./Navbar/Navbar";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import 'react-jinke-music-player/assets/index.css'
+import 'react-h5-audio-player/lib/styles.css';
+import {Route} from "react-router-dom";
+import Listen from "./Pages/Listen";
+import Connect from "./Pages/Connect";
+import Home from "./Pages/Home";
+import Stores from "./Pages/Stores";
+
+
+const App = () => {
+    return (
+        <>
+
+            <NavBar/>
+
+
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/listen' component={Listen}/>
+            <Route exact path='/stores' component={Stores}/>
+            <Route exact path='/connect' component={Connect}/>
+
+
+        </>
+    );
 }
 
 export default App;

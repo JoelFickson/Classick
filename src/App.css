@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');¬¬¬
+
+p, h1, h2, h3, h4, h5, h6, html, strong, label, input, span, select, optgroup, option, a {
+    /*font-family: 'Lexend Peta', sans-serif !important;*/
+    font-family: 'Baloo Tammudu 2', sans-serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.transparent {
+    background: transparent !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+    font-weight: bolder;
+    font-size: 20px;
+    color:#CFD911 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.textDev {
+    color: #82ccdd !important;
+}
+.Upper{
+    font-size: 22px;
+    color: #0e0d0d;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.Developer {
+    color: coral;
+    padding: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Some {
+    color: coral;
+}
+.TransformWhite{
+    color: #0e0d0d;
+}
+
+.White {
+    color: #FFFFFF;
+}
+
+.Menu {
+    color: aquamarine;
+}
+
+.Developer:hover {
+    background: #82ccdd;
+    border-radius: 4px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Back {
+    background: #0e0d0d;
+}
+
+body {
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 1px 1px 1px 1px rgba(47, 54, 64, 0.75);
+    background-image: url("./Images/67586360_2370058783272516_9012428600762171392_o.jpg");
+}
+
+.footerBg {
+    background: #0e0d0d;
+
+}
+
+@media only screen and (max-width: 812px) {
+    body {
+        background-size: contain;
+        height: 100vh;
+        background-image: url("./Images/67586360_2370058783272516_9012428600762171392_o.jpg");
+    }
+
+    .Back {
+        margin-top: 0 !important;
+    }
+
+    .Back h3 {
+        font-size: 20px;
+        color: aqua;
+    }
+
+    .Back h5 {
+        font-size: 16px;
+        color: #FFF;
+    }
+    .TransformWhite{
+        color: #FFF;
+    }
+
+    .min-vh-100, .align-items-center {
+        margin-top: 0 !important;
+        height: auto !important;
+    }
 }
