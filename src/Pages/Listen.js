@@ -3,7 +3,8 @@ import ReactJkMusicPlayer from "react-jinke-music-player";
 
 const Listen = () => {
     document.title = "Classick | Listen to some of my music"
-    const url = "https://iamclassick.com";
+    const url = process.env.PUBLIC_URL + "media/";
+
     const audioList1 = [
         {
             name: 'Anaconda',
