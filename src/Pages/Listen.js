@@ -3,53 +3,54 @@ import ReactJkMusicPlayer from "react-jinke-music-player";
 
 const Listen = () => {
     document.title = "Classick | Listen to some of my music"
+    const url = "https://iamclassick.com";
     const audioList1 = [
         {
             name: 'Anaconda',
             singer: 'Classick',
             cover:
-                'http://iamclassick.com/Core/Public/artworks/anaconda.jpg',
+                `${url}artworks/anaconda.jpg`,
             musicSrc:
-                'http://iamclassick.com/Core/Music/Anaconda.mp3',
+                `${url}music/Anaconda.mp3`,
 
         },
         {
             name: 'Bola Kunthanzi',
             singer: 'Classick ft Sticky Stacks',
             cover:
-                'http://iamclassick.com/Core/Public/artworks/bola.jpg',
+                `${url}artworks/bola.jpg`,
             musicSrc:
-                'http://iamclassick.com/Core/Music/Bola Kunthazi(f. Sticky Stacks) .mp3',
+                `${url}music/Bola Kunthazi(f. Sticky Stacks) .mp3`,
         },
         {
             name: 'Gifted',
             singer: 'Classick ft. Purple C & Lilia',
             cover:
-                'http://iamclassick.com/Core/Public/artworks/gifted.jpg',
+                `${url}artworks/gifted.jpg`,
             musicSrc:
-                'http://iamclassick.com/Core/Music/Gifted (ft. Purple C & Lilia).mp3',
+                `${url}music/Gifted (ft. Purple C & Lilia).mp3`,
         }, {
             name: 'Intro (Not For Long)',
             singer: 'Classick',
             cover:
-                'http://iamclassick.com/Core/Public/artworks/fnf.jpg',
+                `${url}artworks/fnf.jpg`,
             musicSrc:
-                'http://iamclassick.com/Core/Music/Intro (Not For Long).mp3',
+                `${url}music/Intro (Not For Long).mp3`,
         }, {
             name: 'Not My Type',
             singer: 'Classick ft Third Eye',
             cover:
-                'http://iamclassick.com/Core/Public/artworks/nmt.jpg',
+                `${url}artworks/nmt.jpg`,
             musicSrc:
-                'http://iamclassick.com/Core/Music/Not My Type(ft. Mandela).mp3',
+                `${url}music/Not My Type(ft. Mandela).mp3`,
         },
         {
             name: 'Somebody Knows',
             singer: 'Classick',
             cover:
-                'http://iamclassick.com/Core/Public/artworks/somebody.jpg',
+                `${url}artworks/somebody.jpg`,
             musicSrc:
-                'http://iamclassick.com/Core/Music/Somebody Knows.mp3',
+                `${url}music/Somebody Knows.mp3`,
         },
     ]
     return (
