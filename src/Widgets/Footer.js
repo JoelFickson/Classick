@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='footer  col-md-12 footerBg'>
 
 
-                <p className='textDev text-center pt-4'> Developed With by
+                <p className='textDev text-center pt-4'> Developed by
                     <a className='Developer'
                        target='_blank'
                        href='https://twitter.com/joelfickson'>

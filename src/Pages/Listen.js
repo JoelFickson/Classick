@@ -1,5 +1,7 @@
 import React from "react";
 import ReactJkMusicPlayer from "react-jinke-music-player";
+import Helmet from "react-helmet";
+import logo from "../Images/official.jpg";
 
 const Listen = () => {
     document.title = "Classick | Listen to some of my music"
@@ -7,6 +9,31 @@ const Listen = () => {
 
     const audioList1 = [
         {
+            name: 'Drive',
+            singer: 'Classick',
+            cover:
+                `${url}artworks/drive.jpg`,
+            musicSrc:
+                `${url}music/Drive.mp3`,
+
+        },
+        {
+            name: 'Water',
+            singer: 'Classick ft Achina Gattah Ase & Gwamba',
+            cover:
+                `${url}artworks/water.jpg`,
+            musicSrc:
+                `${url}music/Water ft Achina Gattah Ase & Gwamba.mpeg`,
+
+        }, {
+            name: 'Sin City ft F5ver',
+            singer: 'Classick',
+            cover:
+                `${url}artworks/sin_city.jpg`,
+            musicSrc:
+                `${url}music/Sin City.mp3`,
+
+        }, {
             name: 'Anaconda',
             singer: 'Classick',
             cover:
@@ -56,6 +83,42 @@ const Listen = () => {
     ]
     return (
         <div className='col-md-12'>
+
+            <Helmet>
+                <meta charSet="utf-8"/>
+                <title>Classick | Listen & download music by Classick</title>
+                <link rel="canonical" href="https://iamclassick.com/listen"/>
+
+
+                <meta
+                    name="robots"
+                    content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+                />
+                <link rel="canonical" href="https://www.iamclassick.com/listen"/>
+                <meta property="og:locale" content="en_US"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Listen & download music by Classick"/>
+                <meta property="og:description"
+                      content="Enjoy my catalog online."/>
+                <meta property="og:url" content="https://www.iamclassick.com/listen"/>
+                <meta property="og:site_name" content="Listen & download music by Classick"/>
+                <meta property="og:image" content={logo}/>
+                <meta property="og:image:secure_url" content="logo"/>
+                <meta property="og:image:width" content="1280"/>
+                <meta property="og:image:height" content="720"/>
+                <meta name="twitter:card" content={logo}/>
+                <meta name="keywords" content="Malawi Hip Hop Music, Malawi Music, Bola Kunthanzi
+                Home Grown Africa, Anaconda, Classick, Classick Malawi, Malawi Rap Music, Malawi Rap,
+                Malawi Best Rapper, Malawi Hip Hope Best Rapper, Gifted by Classick, Classick Not My Type
+                "/>
+                <meta name="twitter:description"
+                      content="Classick | Listen & download music by Classick "/>
+                <meta name="twitter:title"
+                      content="Listen & download music by Classick"/>
+                <meta name="twitter:image" content={logo}/>
+
+
+            </Helmet>
             <div className="min-vh-100 d-flex align-items-center col-md-12 mx-auto ">
 
 
