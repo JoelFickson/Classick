@@ -18,8 +18,8 @@ const Listen = () => {
 
         },
         {
-            name: 'Water',
-            singer: 'Classick ft Achina Gattah Ase & Gwamba',
+            name: 'Water ft Achina Gattah Ase & Gwamba',
+            singer: 'Classick ',
             cover:
                 `${url}artworks/water.jpg`,
             musicSrc:

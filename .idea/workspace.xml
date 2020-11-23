@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d4e9770-a2d2-4a63-9fb7-8ffeab18580e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/media/artworks/drive.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/artworks/sin_city.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/artworks/water.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/music/Drive.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/music/Sin City.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/media/music/Water ft Achina Gattah Ase &amp; Gwamba.mpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Listen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Listen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Stores.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Stores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Widgets/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Widgets/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +80,7 @@
       <workItem from="1600642915567" duration="6343000" />
       <workItem from="1600805677321" duration="1103000" />
       <workItem from="1601002508226" duration="19000" />
-      <workItem from="1606154644486" duration="1915000" />
+      <workItem from="1606154644486" duration="2372000" />
     </task>
     <servers />
   </component>
